@@ -1,4 +1,3 @@
-# WEB
-
-# HTML / CSS / JAVASCRIPT
-# Front-end
+WEB
+HTML / CSS / JAVASCRIPT
+Front-end
