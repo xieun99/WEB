@@ -1,0 +1,23 @@
+button {
+    background-color: lightblue;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    float: right;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+.btn {
+    background-color: palevioletred;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    float: none;
+    /* 가운데 정렬
+    margin: 0 auto; <- 지금은 이렇게 해도 적용 안됨. */
+}
