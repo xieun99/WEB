@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cookie.css">
+    <title>Practical Exam - Cookie </title>
+</head>
+<body>
+
+    <div class="container">
+        <h3 style="text-align: center; padding: 100px"> JS Cookie
+            <small class="text-muted"> with faded secondary text </small>
+        </h3>
+        <br>
+        <!-- <button class="btnCreate"> Create row and column </button> -->
+
+        <table class="table table-striped table-hover" id="myTable">
+            <caption> List of Cookies </caption>
+            <thead class="text-center">
+                <tr>
+                    <th> Check list </th>
+                    <th> Click </th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td class="align-middle"> 쿠키 확인하기 </td>
+                    <td> <button onclick="getCookie();"> Get Cookie </button></td>
+                </tr>
+                <tr>
+                    <td class="align-middle"> 쿠키 생성하기 </td>
+                    <td> <button onclick="setCookie();"> Set Cookie </button></td>
+                </tr>
+                <tr>
+                    <td class="align-middle"> 쿠키 삭제하기 </td>
+                    <td> <button onclick="delCookie();"> Remove </button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="cookie.js"></script>
+</body>
+</html>
