@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cookie4.css">
+    <title> JS Cookie </title>
+</head>
+<body>
+
+    <div class="container">
+        <h3 style="text-align: center; padding: 100px"> JS Cookie
+            <small class="text-muted"> with js-cookie library</small>
+        </h3>
+        <br>
+
+        <table class="table table-striped table-hover" id="myTable">
+            <caption> List of Cookies </caption>
+            <thead class="text-center">
+                <tr>
+                    <th style="width: 60%;"> Check list </th>
+                    <th> Click </th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <form id="form">
+                        <td class="align-middle">
+                            <input type="text" name="cname" value="" id="cname" placeholder="Cookie Name" required>
+                        </td>
+                        <td> <button style ="width:200px;" type="submit"> Del Cookie </button></td>
+                    </form>
+                </tr>
+                <tr>
+                    <td class="align-middle"> 쿠키 전체 삭제 </td>
+                    <td> <button style="width:200px;" onclick="allDelCookies();"> All Del Cookies </button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <script src="cookie4.js"></script>
+</body>
+</html>
